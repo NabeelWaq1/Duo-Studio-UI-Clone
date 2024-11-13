@@ -8,9 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Sign Up</title>
+    <title>Log In</title>
     <style>
-       *{
+        *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -37,7 +37,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            overflow-y: hidden;
         }
     </style>
   </head>
@@ -45,26 +44,18 @@
     <main class="py-5">
         <div class="form-container">
             <form>
-              <h1 class="mb-3 fw-bold">Sign Up</h1>
-              <h4 class="fw-normal h5">Create a new account</h4>
-              <div class="form-floating my-2">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Full Name">
-                <label for="floatingInput">Full Name</label>
-              </div>
-              <div class="form-floating my-2">
+              <h1 class="mb-3 fw-bold">Login</h1>
+              <h4 class="fw-normal h5">Login to your account</h4>
+              <div class="form-floating my-2 mt-3">
                 <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
-                <label for="floatingEmail">Email address</label>
+                <label for="floatingEmail">Email Address</label>
               </div>
-              <div class="form-floating my-2">
+              <div class="form-floating my-2 mb-3">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
               </div>
-              <div class="form-floating my-2">
-                <input type="password" class="form-control" id="floatingConfPassword" placeholder="Password">
-                <label for="floatingConfPassword">Confirm Password</label>
-              </div>
-              <button class="w-100 btn btn-lg btn-primary mb-3" type="submit">Sign up</button>
-              <a href="./login.html" class="already d-block text-center py-2">Already have an account? Log in here</a>
+              <button class="w-100 btn btn-lg btn-primary mb-3" type="submit">Log In</button>
+              <a href="./index.html" class="already d-block text-center py-2">Don't have an account? Sign up here."</a>
             </form>
         </div>
     </main>
